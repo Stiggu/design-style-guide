@@ -24,23 +24,41 @@ h1 {
     width: 100px;
     height: 100px;
     margin: 20px;
+}
+
+.color-container{
+    border-right: 1px solid gray;
+    display: inline-block;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.color-descriptions{
+    width: 500px;
+    margin: 0;
     display: inline-block;
 }
 
-.color-neon-red{
-    background-color: #FF5733;
+
+.color-descriptions li {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.color-neon-green{
-    background-color: #39FF14;
+.color-electric-vanilla{
+    background-color: #FEFFDE;
 }
 
-.color-neon-purple{
-    background-color: #B026FF;
+.color-overcharged-mint{
+    background-color: #DDFFBC;
 }
 
-.color-neon-blue{
-    background-color: #1F51FF;
+.color-synthesized-grass{
+    background-color: #91C788;
+}
+
+.color-sleepy-green-energy{
+    background-color: #52734D;
 }
 
 p.color-text{
@@ -49,3 +67,14 @@ p.color-text{
     background-color: black;
 }
 
+.font-descriptions{
+    margin: 30px 60px;
+}
+
+div.font-container{
+    font-family: "Century Gothic", sans-serif;
+}
+
+.descriptions {
+    margin: 20px;
+}
